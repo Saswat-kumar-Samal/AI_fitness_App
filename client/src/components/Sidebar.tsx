@@ -41,7 +41,7 @@ export default function Sidebar(): ReactElement {
             {/* button for switching between dark and light theme*/}
             <div className='flex flex-1 items-end'>
                 <button className='flex items-center gap-3 px-4 py-2.5 w-full text-slate-500 dark:text-slate-400 hover:bg-slate-300 dark:hover:bg-slate-800
-                                    hover:text-slate-700 dark:hover:text-slate-200 rounded-lg transition-colors duration-200 cursor-pointer'
+                                    hover:text-slate-700 dark:hover:text-slate-200 rounded-lg transition-colors duration-300 cursor-pointer'
                         onClick={toggleTheme}>
                     {theme === 'light' ? <Moon size={20}/> : <Sun size={20}/>}
                     <span className='text-sm font-medium'>{theme === "light" ? 'dark mode' : 'light mode'}</span>
